@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: d54bd0717a4f68e46b16884d90a85748
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Dock
+    100002: DockStruts
+    100004: //RootNode
+    100006: Roof
+    100008: Struts
+    100010: Walls
+    100012: Clay Wall
+    100014: Stone Walls
+    400000: Dock
+    400002: DockStruts
+    400004: //RootNode
+    400006: Roof
+    400008: Struts
+    400010: Walls
+    400012: Clay Wall
+    400014: Stone Walls
+    2100000: Wood.001
+    2100002: Planks
+    2100004: Wood
+    2100006: Stone
+    2100008: Tatch
+    2100010: Clay
+    2300000: Dock
+    2300002: DockStruts
+    2300004: Roof
+    2300006: Struts
+    2300008: Walls
+    2300010: Clay Wall
+    2300012: Stone Walls
+    3300000: Dock
+    3300002: DockStruts
+    3300004: Roof
+    3300006: Struts
+    3300008: Walls
+    3300010: Clay Wall
+    3300012: Stone Walls
+    4300000: DockStruts
+    4300002: Dock
+    4300004: Struts
+    4300006: Walls
+    4300008: Roof
+    4300010: Clay Wall
+    4300012: Stone Walls
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clay
+    second: {fileID: 2100000, guid: b82d9e7f4ca270645b38225b2b500249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Planks
+    second: {fileID: 2100000, guid: b51bb6c42e34c074b9186fdfe09cff5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: 49258c39ec8708f47b43bfa09c77f814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tatch
+    second: {fileID: 2100000, guid: 8328a4771e6497d4693eb7afdf070578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 59362c4a7071efa4f8a95380cac5caac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: 30630b9f18201fb40bfc69aa89c4e659, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

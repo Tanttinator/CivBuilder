@@ -1,0 +1,449 @@
+<h4>1.0</h4>
+<ul>
+	<li>Finished stone age! (for now)</li>
+	<li>Lots of balancing.</li>
+	<li>Improved building menu.</li>
+	<li>Improved speed selection.</li>
+	<li>Buildings</li>
+	<ul>
+		<li>Changed</li>
+		<ul>
+			<li>Changed many building costs to be consistent and balanced.</li>
+			<li>Split gatherer's hut gather into multiple separate jobs.</li>
+			<ul>
+				<li>Gather Stone</li>
+				<li>Gather Wood</li>
+				<li>Gather Food -- Berries</li>
+				<li>Gather Hemp -- Unlocked at weaving</li>
+			</ul>
+		</ul>
+	</ul>
+</ul>
+
+<h4>0.9</h4>
+<ul>
+	<li>Improved road generation.</li>
+	<li>World</li>
+	<ul>
+		<li>Increased the scale of the world. (Chunks represent a smaller area)</li>
+		<li>Grass is generated in grasslands.</li>
+		<li>Buildings now flatten ground beneath them.</li>
+	</ul>
+	<li>Military</li>
+	<ul>
+		<li>Removed staging grounds and military tech.</li>
+		<li>First army is now gained from chieftain's hut.</li>
+		<li>Units are now recruited locally - each military base must have it's own unit-unlocking-buildings to recruit that unit.</li>
+	</ul>
+	<li>Buildings</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Tailor</li>
+			<ul>
+				<li>Creates clothing.</li>
+				<li>Unlocked at weaving.</li>
+			</ul>
+		</ul>
+		<li>Changed</li>
+		<ul>
+			<li>Added small animations to some buildings while they are working. (Ovens firing up, grindstone turning...)</li>
+			<li>Updated models of almost all buildings.</li>
+			<li>Weavery</li>
+			<ul>
+				<li>Can now create yarn.</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Resources</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Yarn</li>
+			<li>Clothing</li>
+		</ul>
+	</ul>
+	<li>Bug Fixes</li>
+	<ul>
+		<li>Building needs are now saved.</li>
+		<li>Trees and other terrain objects no longer generate inside buildings when loading a save.</li>
+	</ul>
+</ul>
+
+<h4>0.8</h4>
+<ul>
+	<li>Residential buildings now have needs - you must supply them with the resources they ask for or their happiness will drop.</li>
+	<li>Reworked building info window.</li>
+	<li>World</li>
+	<ul>
+		<li>Stones are generated everywhere.</li>
+		<li>Cactus generate in the deserts.</li>
+	</ul>
+	<li>Buildings</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Goldsmith</li>
+			<ul>
+				<li>Unlocked at gold working.</li>
+				<li>Creates jewelry.</li>
+			</ul>
+			<li>Well</li>
+			<ul>
+				<li>Unlocked at pottery.</li>
+				<li>Generates water.</li>
+			</ul>
+		</ul>
+		<li>Changed</li>
+		<ul>
+			<li>Tannery</li>
+			<ul>
+				<li>Tan hides now requires water.</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Resources</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Gold</li>
+			<li>Gold Ore</li>
+			<li>Jewelry</li>
+			<li>Water</li>
+		</ul>
+	</ul>
+	<li>Bug Fixes</li>
+	<ul>
+		<li>Fixed unemploying workers not returning the worker back to the list of unempoloyed workers</li>
+		<li>Fixed terrain objects like trees generating in different locations with same seed.</li>
+	</ul>
+</ul>
+
+<h4>0.7</h4>
+<ul>
+	<li>Changed the building menu.</li>
+	<li>Buildings</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Grindstone</li>
+			<ul>
+				<li>Grinds wheat into wheat flour.</li>
+				<li>Unlocked at agriculture.</li>
+			</ul>
+			<li>Bakery</li>
+			<ul>
+				<li>Bakes flour into bread.</li>
+				<li>Unlocked at agriculture</li>
+			</ul>
+			<li>Toolmaker</li>
+			<ul>
+				<li>Creates tools.</li>
+				<li>Unlocked at tools.</li>
+			</ul>
+			<li>Bowmaker</li>
+			<ul>
+				<li>Creates bows.</li>
+				<li>Unlocked at archery.</li>
+			</ul>
+		</ul>
+		<li>Changed</li>
+		<ul>
+			<li>Some jobs now require different tiers of tools.</li>
+		</ul>
+	</ul>
+	<li>Units</li>
+	<ul>
+		<li>Changed</li>
+		<ul>
+			<li>Archer</li>
+			<ul>
+				<li>Now costs bows to reqruit.</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Resources</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Crude Tool</li>
+			<ul>
+				<li>Tier 0 tool.</li>
+			</ul>
+			<li>Stone Tool</li>
+			<ul>
+				<li>Tier 1 tool.</li>
+			</ul>
+			<li>Hemp</li>
+			<ul>
+				<li>Replaces flax.</li>
+			</ul>
+			<li>Textile</li>
+			<ul>
+				<li>Replaces linen.</li>
+			</ul>
+			<li>Twine</li>
+			<li>Wheat Flour</li>
+			<li>Bread</li>
+			<li>Bow</li>
+			<li>Bowstring</li>
+		</ul>
+	</ul>
+</ul>
+
+<h4>0.6</h4>
+<ul>
+	<li>Saves now display the date and time of when it was last played to separate similarly named saves.</li>
+	<li>Added new fancier resource view.</li>
+	<li>Cities</li>
+	<ul>
+		<li>Campfires and other central buildings now create cities on the map.</li>
+		<li>Workers are now tracked by cities instead of the whole civilization -- buildings can now only employ workers in their local city.</li>
+		<li>Cities are currently only visual. They show a border and a name.</li>
+		<li>If placed central building overlaps an existing central building, it will not create a new city. Instead it will expand the existing city.</li>
+	</ul>
+	<li>Buildings</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Farm</li>
+			<ul>
+				<li>Gathers wheat.</li>
+			</ul>
+			<li>Pasture</li>
+			<ul>
+				<li>Gathers meat and hides.</li>
+			</ul>
+			<li>Tannery</li>
+			<ul>
+				<li>Turns hides into leather.</li>
+			</ul>
+			<li>Potter</li>
+			<ul>
+				<li>Creates unfired pottery.</li>
+			</ul>
+		</ul>
+		<li>Changed</li>
+		<ul>
+			<li>Mine</li>
+			<ul>
+				<li>Can mine salt.</li>
+				<li>Copper mining moved into Casting technology.</li>
+			</ul>
+			<li>Kiln</li>
+			<ul>
+				<li>Can turn unfired pottery into pottery.</li>
+				<li>Smelting copper moved into Casting.</li>
+				<li>Unlocked at Pottery.</li>
+			</ul>
+			<li>Hunter's Cabin</li>
+			<ul>
+				<li>Now gathers hides instead of leather.</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Technologies</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Casting</li>
+			<li>Leather Working</li>
+		</ul>
+		<li>Changed</li>
+		<ul>
+			<li>Mining</li>
+			<ul>
+				<li>Cost lowered from 100 to 20.</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Resources</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Hide</li>
+			<li>Salt</li>
+			<li>Unfired Pottery</li>
+			<li>Pottery</li>
+		</ul>
+	</ul>
+</ul>
+
+<h4>0.5</h4>
+<ul>
+	<li>Added saving and loading</li>
+	<li>Improved UI</li>
+	<li>Improved Performance</li>
+	<li>Bug Fixes</li>
+	<ul>
+		<li>Fixed a bunch of bugs with starting a game after the first time</li>
+		<li>Fixed bugs with deleting armies</li>
+	</ul>
+</ul>
+
+<h4>0.4</h4>
+<ul>
+	<li>Improved world generation</li>
+	<li>Improved day-night cycle</li>
+	<li>Workers now have proper names</li>
+	<li>Military</li>
+	<ul>
+		<li>First iteration of military</li>
+		<ul>
+			<li>Different units have different strengths.</li>
+			<li>Create armies and assing recruited units into them. Every army has a commander</li>
+			<li>New chunks may have hostile units, which have to be defeated to claim the chunk.</li>
+			<li>Select one army to battle the hostile units. Winner is selected randomly based on the strengths of the participants.</li>
+		</ul>
+		<li>New</li>
+		<ul>
+			<li>Units</li>
+			<ul>
+				<li>Archer</li>
+				<li>Brute</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Buildings</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Archery Range<li>
+			<ul>
+				<li>Unlocks the archer unit</li>
+			</ul>
+			<li>Hunter's Cabin<li>
+			<ul>
+				<li>Hunts wild animals for meat and leather</li>
+			</ul>
+			<li>Staging Grounds</li>
+			<ul>
+				<li>Allows creation of an army</li>
+				<li>Unlocks the brute unit</li>
+			</ul>
+			<li>Weavery<li>
+			<ul>
+				<li>Creates linen from flax</li>
+			</ul>
+		</ul>
+		<li>Changed</li>
+		<ul>
+			<li>Buildings show their effective ranges whene selected and when placing it. Also when placing a building, the nearest central buildings (and more depending on the placed building) range is displayed.</li>
+			<li>Added an arrow indicating the facing when placing a building.</li>
+			<li>Campfire</li>
+			<ul>
+				<li>Generates a road to the nearest campfire. Currently has no functionality.</li>
+			</ul>
+		</ul>
+	</ul>
+	<li>Technologies</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Tools</li>
+			<li>Hunting</li>
+			<li>Pottery</li>
+			<li>Weaving</li>
+			<li>Archery</li>
+			<li>Agriculture</li>
+			<li>Animal Husbandry</li>
+			<li>Military</li>
+		</ul>
+	</ul>
+	<li>Resources</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Flax</li>
+			<li>Linen</li>
+			<li>Leather</li>
+			<li>Meat</li>
+		</ul>
+	</ul>
+	<li>Bug Fixes</li>
+	<ul>
+		<li>Fixed buildings always overlapping -- again</li>
+	</ul>
+</ul>
+
+<h4>0.3</h4>
+<ul>
+	<li>Day-Night Cycle</li>
+	<li>Buildings</li>
+	<ul>
+		<li>Changed</li>
+		<ul>
+			<li>Updated models</li>
+		</ul>
+	</ul>
+
+	<li>World</li>
+	<ul>
+		<li>New</li>
+		<ul>
+			<li>Generates trees, stones, and bushes</li>
+		</ul>
+	</ul>
+	<li>Bug Fixes</li>
+	<ul>
+		<li>Fixed placing buildings on water</li>
+		<li>Fixed resource popups blocking mouse interaction</li>
+	</ul>
+</ul>
+
+<h4>0.2</h2>
+<ul>
+<li>Buildings</li>
+	<ul>
+	<li>New</li>
+		<ul>
+		<li>Kiln</li>
+			<ul>
+			<li>Smelts ores</li>
+			</ul>
+		<li>Mine</li>
+			<ul>
+			<li>Mines ores and stone</li>
+			</ul>
+		</ul>
+	<li>Changed</li>
+		<ul>
+		<li>Gatherer's Hut</li>
+			<ul>
+			<li>Decreased number of workers to 2</li>
+			</ul>
+		<li>Hut</li>
+			<ul>
+			<li>Reduced population cap change to 2</li>
+			</ul>
+		<li>Stockpile</li>
+			<ul>
+			<li>Now supplies resources to buildings.</li>
+			</ul>
+		</ul>
+	</ul>
+
+<li>Resources</li>
+	<ul>
+	<li>New</li>
+		<ul>
+		<li>Copper</li>
+		<li>Copper Ore</li>
+		<li>Iron</li>
+		<li>Iron Ore</li>
+		<li>Tin</li>
+		<li>Tin Ore</li>
+		</ul>
+	</ul>
+
+<li>Bug Fixes</li>
+	<ul>
+	<li>Fixed buildings always overlapping when last building placement was cancelled</li>
+	<li>Fixed buildings being placed while cursor was over UI</li>
+	</ul>
+</ul>
+
+<h4>0.1</h4>
+<ul>
+<li>Added everything</li>
+</ul>

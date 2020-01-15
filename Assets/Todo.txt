@@ -1,0 +1,4 @@
+Loading screen
+Display building orientation
+Rework game speed selection
+Fix main menu terrain loading twice at start
